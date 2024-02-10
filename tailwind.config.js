@@ -11,12 +11,32 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "15px",
       screens: {
-        "2xl": "1400px",
+        sm: '640px',
+        md: '768px',
+        lg: '960px',
+        xl: '1200px',
       },
     },
+    colors: {
+      body: '#e5e5e5',
+      white: '#fff',
+      gray: '#888888',
+      pink: '#ffa5a5',
+      outline: '#f1f1f1',
+      green: { DEFAULT: '#539592', hover: '#40807d' },
+      black: { DEFAULT: '#273029', hover: '#1b211c' },
+      orange: { DEFAULT: '#f2994a', hover: '#da863c' },
+    },
     extend: {
+      fontFamily: {
+        lora: ['var(--font-lora)', 'sans-serif'],
+        poppins: ['var(--font-poppins)', 'sans-serif'],
+      },
+      boxShadow: {
+        primary: '40px 4px 40px 0px rgba(68, 68,68,.25)'
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
