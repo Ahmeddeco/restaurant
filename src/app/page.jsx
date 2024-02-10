@@ -1,5 +1,12 @@
-import Image from 'next/image'
+import StyleGuide from '@/components/StyleGuide'
+import React from 'react'
 
-export default function Home() {
-	return <main>home page</main>
+const home = () => {
+	return (
+		<main className='w-full max-w-[1440px] bg-white mx-auto overflow-hidden'>
+			<StyleGuide />
+		</main>
+	)
 }
+
+export default home

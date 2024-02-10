@@ -34,6 +34,12 @@ module.exports = {
         lora: ['var(--font-lora)', 'sans-serif'],
         poppins: ['var(--font-poppins)', 'sans-serif'],
       },
+      backgroundImage: {
+        hero: 'url(/hero/bg.png)',
+        menu: 'url(/menu/bg.png)',
+        reservation: 'url(/reservation/bg.png)',
+        footer: 'url(/footer/bg.png)',
+      },
       boxShadow: {
         primary: '40px 4px 40px 0px rgba(68, 68,68,.25)'
       },
